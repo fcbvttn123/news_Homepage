@@ -1,0 +1,76 @@
+@font-face {
+    font-family: myFont;
+    src: url(assets/fonts/Inter-VariableFont_slnt\,wght.ttf);
+}
+
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+:root {
+    font-size: 62.5%;
+    --Off-white: hsl(36, 100%, 99%);
+    --Soft-orange: hsl(35, 77%, 62%)
+}
+
+body {
+    background-color: var(--Off-white);
+}
+
+body h1 {
+    font-size: 3rem;
+    line-height: 1.25;
+    font-family: myFont;
+}
+
+body p, body a, body button {
+    font-size: 1.5rem;
+    line-height: 1.5;
+    font-family: myFont;
+}
+
+.wrapper {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+button {
+    color: white;
+    background-color: black;
+    padding: .7rem 3.7rem;
+    cursor: pointer;
+}
+
+
+
+
+/* Header */
+
+.wrapper-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3rem 0;
+}
+
+.links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.links a {
+    padding: 2rem;
+    cursor: pointer;
+}
+
+.links a:hover {
+    color: var(--Soft-orange);
+}
+
+
+
+
+/* Main Section */
+
+
